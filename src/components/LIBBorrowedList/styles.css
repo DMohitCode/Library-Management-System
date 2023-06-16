@@ -1,0 +1,24 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+}
+.list_box p {
+    margin: 0;
+}
+.list_box p:nth-child(1){
+    font-weight: bold;
+}
+.list_box p:nth-child(2){
+    color: grey;
+    font-size: bold;
+}
+.list_box button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: skyblue;
+    outline: none;
+    border-radius: 2px;
+}

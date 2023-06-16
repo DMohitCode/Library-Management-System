@@ -1,0 +1,12 @@
+.lib-box {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+.lib-list .lib-borrowed-list {
+  width: 250px;
+  padding: 20px;
+
+}

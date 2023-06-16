@@ -1,0 +1,44 @@
+section{
+    width: 80%;
+    margin: auto;
+    display: grid;
+}
+.books{
+    width: 250px;
+    padding: 5px;
+}
+.details p {
+    margin: 0;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+}
+.details p:nth-child(2){
+    color: grey;
+    font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: grey;
+}
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: skyblue;
+    outline: none;
+    border-radius: 2px;
+}
+.warning{
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    background-color: rgb(210, 91, 91);
+    font-size: 1.1rem;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    border-radius: 5px;
+}
