@@ -11,6 +11,7 @@ const BorrowedList = props => {
   
   return (
     <section>
+     <h2>Borrowed List</h2>
      { 
         borrowedList?.map((item)=>(
           <div className="list_box" key={item.id}>

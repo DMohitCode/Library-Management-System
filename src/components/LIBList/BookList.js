@@ -8,11 +8,12 @@ const BookList = props => {
   return (
     <>
       <section>
-          {
-              list?.map((item)=>(
-                  <Books item={item} key={item.id} handleClick={handleClick}/>
-              ))
-          }
+    	  <h2>Books Available</h2>
+        {
+            list?.map((item)=>(
+                <Books item={item} key={item.id} handleClick={handleClick}/>
+            ))
+        }
       </section>
     </>
   )
