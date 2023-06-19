@@ -1,4 +1,4 @@
-const list = [
+const bookList = [
     {
       id: 1,
       title: "My First Book of Pencil Control",
@@ -40,49 +40,7 @@ const list = [
       author: "by Om Books Editorial Team | 30 September 2020",
       price: 135,
       inventory: 1,
-    },
-    {
-      id: 7,
-      title: "Pre-School Activities Pack ",
-      author: "by Om Books Editorial Team  | 1 January 2021",
-      price: 693,
-      inventory: 1,
-    },
-    {
-      id: 8,
-      title: "Early Learning Library Pack 1",
-      author: "by Wonder House Books  | 6 December 2020",
-      price: 289,
-      inventory: 1,
-    },
-    {
-      id: 9,
-      title: "Blossom Moral Story Book for Kids ",
-      author: "by Content Team at Target Publications",
-      price: 80,
-      inventory: 1,
-    },
-    {
-      id: 10,
-      title: "Brain Activity Book for Kids",
-      author: "by Maple Press | 1 September 2021",
-      price: 86,
-      inventory: 1,
-    },
-    {
-      id: 11,
-      title: "Willy the Silly Panda",
-      author: "by Rebecca Smith  | 14 December 2021",
-      price: 120,
-      inventory: 1,
-    },
-    {
-      id: 12,
-      title: "Grandma's Bag of Stories",
-      author: "by Sudha Murty | 1 January 2015",
-      price: 157,
-      inventory: 1,
-    },
+    }
 ];
 
-export default list;
+export default bookList;

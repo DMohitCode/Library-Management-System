@@ -3,7 +3,7 @@ section{
     margin: auto;
     display: grid;
 }
-.books{
+.books {
     width: 250px;
     padding: 5px;
 }

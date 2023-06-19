@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-
+import List from './List'
 const BorrowedList = props => {
   const {borrowedList, setBorrowedList} = props;
 
@@ -14,11 +14,7 @@ const BorrowedList = props => {
      <h2>Borrowed List</h2>
      { 
         borrowedList?.map((item)=>(
-          <div className="list_box" key={item.id}>
-            <p>{item.title}</p>
-            <p>Price- {item.price}</p>
-            <button onClick={()=>handleRemove(item.id)} >Remove</button>
-          </div>
+          <List item={item} handleRemove={handleRemove}/>
         ))
       }
     </section>

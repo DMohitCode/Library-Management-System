@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import list from '../../assets/LIBData'
+import bookList from '../../assets/LIBData'
 import Books from './Books'
 import './styles.css'
 
@@ -10,7 +10,7 @@ const BookList = props => {
       <section>
     	  <h2>Books Available</h2>
         {
-            list?.map((item)=>(
+            bookList?.map((item)=>(
                 <Books item={item} key={item.id} handleClick={handleClick}/>
             ))
         }
