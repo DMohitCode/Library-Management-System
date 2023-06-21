@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './App.css';
 import LibBookList from './components/LIBList/BookList'
 import LibBoorowedList from './components/LIBBorrowedList/BorrowedList'
+import {BORROWED_ITEM_LIMIT_CONSTANTS} from './assets/constants'
 
 function App() {
   const [borrowedList, setBorrowedList] = useState([]);
@@ -21,7 +22,7 @@ function App() {
 			}, 2000);
 			return ;
 		}
-		if(borrowedList.length < 2){
+		if(borrowedList.length < BORROWED_ITEM_LIMIT_CONSTANTS){
 			setBorrowedList([...borrowedList, item]);
 		} else {
 			setBorrowedLimitWarning(true);

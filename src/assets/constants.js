@@ -1,0 +1,1 @@
+export const BORROWED_ITEM_LIMIT_CONSTANTS = 2;
